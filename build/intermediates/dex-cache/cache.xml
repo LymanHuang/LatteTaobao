@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\zyx\.android\build-cache\5532bc410feb757c075d34e87c91d54e7771e42e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8eb63efaa43155f65502a2145fa92475ac4df937">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f7f0e938a998e074e57a5813875a60def642fbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zyx\.android\build-cache\6bf06f1e37560bea66d66bbed9ee7def9d7da2f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="410fb54f7b02d93e213ad44fe61aad926c880485">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_177d8cd5409408c97ae39906c42f716e8dd9f66f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zyx\.android\build-cache\65228897fed17b52330e3c3edd1a4bfd638a613f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a74d24e667af3334ecf7afb092ef70bd55f26ed9">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2dd205a682d9f127550cba7040f4e7938ac87a48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7de033b903df1f909fb6e1957ad83c7bc22529f2">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5f17c489adaa14b6abd07ef5afc6077d752e5100\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dbf9f3efc668106dfd07a6fa905b72a884ed7762\classes.dex" />
+    </item>
+
+</items>
