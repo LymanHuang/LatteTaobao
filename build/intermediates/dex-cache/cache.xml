@@ -3,48 +3,759 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\zyx\.android\build-cache\5532bc410feb757c075d34e87c91d54e7771e42e\output\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0\dff931af436f0a2815d0109ab2258bbce2d6275d\glide-4.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8eb63efaa43155f65502a2145fa92475ac4df937">
-        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f7f0e938a998e074e57a5813875a60def642fbd\classes.dex" />
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-4.0.0_6ec7904045b1965aca05d8505496541e2acdbaf9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zyx\.android\build-cache\6bf06f1e37560bea66d66bbed9ee7def9d7da2f8\output\jars\classes.jar"
-        jumboMode="true"
+        jar="D:\android\avd\.android\build-cache\ddcaae76113b145742f33c043162007667ae4a71\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="410fb54f7b02d93e213ad44fe61aad926c880485">
-        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_177d8cd5409408c97ae39906c42f716e8dd9f66f\classes.dex" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7dfa5eaab31f0d856a7ffbf79c8c1db50bb6eff\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\zyx\.android\build-cache\65228897fed17b52330e3c3edd1a4bfd638a613f\output\jars\classes.jar"
-        jumboMode="true"
+        jar="H:\github\LearnExample\app\libs\MobCommons-2017.0914.1125.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="572d1b40ee4bcf9366f22d7a1035bb30ef715f4f">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0914.1125_d1af39cb5200fe1b087bb177cf5f5b3ef7e42ec0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\MobTools-2017.0914.1125.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5255ef59c79430f7b8709cc19bf7a14efc1b5">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0914.1125_97bc87ffc40f57ab698e87c610171437bfd66797\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\android-sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_f66a94e79fc5fcd6a9d8e6379e729d6246adbce2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3fb3435f069578f09b2bb22dd1aad305f55f74d0">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-3.1.0_d3adc2323228166e029a18a9c69813b5150ff5db.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\926085fb68f30796c826a04972b3a0252f4775f3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bae1b23d863e5a2d1e4ea70b21efed56512e410f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\MobCommons-2017.0914.1125.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="572d1b40ee4bcf9366f22d7a1035bb30ef715f4f">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0914.1125_d1af39cb5200fe1b087bb177cf5f5b3ef7e42ec0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\02f2ac483200a79667a3334dc125a857e783a5aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="970b2eadc8805e4e04a9008f97368c7b8cc78651">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c756ecb5a2e6b8e1fd3f23184355d94d4d5996b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\a6360b91fc72fbfdca7931baba2d8ec1710dbb41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d39a0a1641097e704c9008efbaed03028d3921c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\MobTools-2017.0914.1125.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5255ef59c79430f7b8709cc19bf7a14efc1b5">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\MobTools-2017.0914.1125_97bc87ffc40f57ab698e87c610171437bfd66797.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\73f3f71a9fdfaa010600de264da5049902e0886e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d91e61885c6007d48feb57a2aa5c38421cae8b87">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f74f421bf11cf0638d438763b7400162fe9e6eec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\c19fdfaae7f6063d89b706da7e0a781366f166e5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfd983baebe1573e002bb8983a86f34a37becb4a">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a05a780695b29d67c4e9c5de99d0d60d3efd1216\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\ba81d6c262f78bea49f32e48876bbd78ee8604f6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1da3577249d8a67090bd16e9ff0789771722cf7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\latte_core\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91e33a043b6f9bcdf347a681e5240b830df82133">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\classes_718e98ec0cdd0a9275ce07aec543176de7be6952.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\2e187904c8a9bfcf894a0aa73e65e82884454268\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e401f475d1307904e7bc1ae0c49625ca8447ece">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd19dd4260d87741eb405a444d5a60fcdb071a90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\5cb54c2b66e3c1d194997dacd1e94adeb11d936b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84642511e3e7fe1dacd03ded58839941bb0d826b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava2-2.3.0_44f20bf39a10c4d40d1c07bbfcf28ac2b66d410f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\39b9f33c741b00f965d25356564a7b8ee9201808\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24d02e2e64c488b3e9d1ac273400effc331a7a2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.0\b258209549457d03e912ec4641735fc88048df99\butterknife-annotations-8.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b258209549457d03e912ec4641735fc88048df99">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.8.0_5af764632f03f17785e31f57f30a85bdb8c78283\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Favorite-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a21e1d0fe8cc137b07afb8a57015ec0de15ff365">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-3.1.0_b51ed780a451327be3f2ce9dd330672f3cfbfc2b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-generator\3.2.2\c1d222f0f518f6d32150c566ef378e0dcba8de1e\greendao-generator-3.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1d222f0f518f6d32150c566ef378e0dcba8de1e">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-generator-3.2.2_ebc05c528722eeb6c1155ca70b62afb24376363f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\9826e0abcb77903a3d07b366a362cc606ea55f74\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c354f878ab34215a1e556c3921cf956f55c4239">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88d5b212ffc62aa9e4c51581c18ae3542660ea38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Favorite-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a21e1d0fe8cc137b07afb8a57015ec0de15ff365">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-3.1.0_b51ed780a451327be3f2ce9dd330672f3cfbfc2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\063ade5f67424806937739a456c37c7bcc681b4f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4df234a2c56e63ff8812337b73d9c576c4a9557">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53777b351d7a0935a163e2f123fd990814eda6e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\bf6f656a51a26e17b55a6cf4db65e04e36dfe2c6\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a74d24e667af3334ecf7afb092ef70bd55f26ed9">
-        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2dd205a682d9f127550cba7040f4e7938ac87a48\classes.dex" />
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be3233e37bc2d6a1adcb8ed56d6c50f3d256c8d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\github\LearnExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="H:\github\LearnExample\latte_core\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7de033b903df1f909fb6e1957ad83c7bc22529f2">
-        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5f17c489adaa14b6abd07ef5afc6077d752e5100\classes.dex" />
+        sha1="91e33a043b6f9bcdf347a681e5240b830df82133">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_718e98ec0cdd0a9275ce07aec543176de7be6952\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="H:\github\LearnExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.1\4d060ca3190df0eda4dc13415532a12e15ca5f11\okhttp-3.8.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dbf9f3efc668106dfd07a6fa905b72a884ed7762\classes.dex" />
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.8.1_032b1d2117e56d98e15716cdfc48889f5c1fd244\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\d1bbe89eb6eb40855cbd2c4e7ee2a849b2e3c2a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb1569d944265e6012d2fee9dbb6c71f8503ec04">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5e94ec7d0b0b0571a2bb27e4cf96d4e1749c621\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.freemarker\freemarker\2.3.23\cd143cd8c02a9f838e3cb75a6dfe133750437f6d\freemarker-2.3.23.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd143cd8c02a9f838e3cb75a6dfe133750437f6d">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\freemarker-2.3.23_25ec0259f44e7df4b6050a0c096fa08b5106a554\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\6166caa4e6c2927f7b243d162353e9a96740e00b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c4f6c031c5b57f535d8457ee5f015109a6d7c79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_098b09b6a11593dc20fc4b42f55a6f8fd8090285\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\reactive-streams-1.0.0_5ea215fafe26757b3eaa9e791da078c680959e41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\a1d4e6f235dd7319d8d771cbbf06772206c72132\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd4124b02e84fc5c07ca938e5abe27ddf4f2b3d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\c60f30515ec53d966842f9ff03b39a22569daff1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="410fb54f7b02d93e213ad44fe61aad926c880485">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f283198a663392238121d1746db93608424676b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\62038e5b70efc563fe13bd140759b40874da3e88\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_840897ebafeb432ac225ba272a9ef811d8ae4179\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\458deb8a52c786eb1db82ce52d13fb03a766d517\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8eb63efaa43155f65502a2145fa92475ac4df937">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_920843466245a6d3c83e4ff738b8daed1a51a771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\2a1e181a5b639d728a11ac7720bf451d0ec84225\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bdea18deb2358e49a36cb791de17a2f7b3b4ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\e98823f6f468accd94184a75153553ca2fcd62cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f0d4c8ed374eabe73681d97866ebcd6456af6fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\e2a308216cfe3d813aa4c90aa2f335033e45b311\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e492787f157c13839c02e0b7293871dbaed9911">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fefc0067ac5b7d91ba48164319c0176c9db36b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.61.android\7c46412bedfe6c7f04d0003142ef51b4351f4cc9\fastjson-1.1.61.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7c46412bedfe6c7f04d0003142ef51b4351f4cc9">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.61.android_8a0a9180d50117cfe874cfc33112acb221a6f1d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\2e9ef8f27c4d9f0d66153eec3d89678d4d168993\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af20faf2a6fff6cac01bb9ee4130ee942a29ec22">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4aac895618aab2a9abef46fa5b874e57a062d28c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.2\3efb75ac15c0659bc34f68d715930af8d57530a7\rxjava-2.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3efb75ac15c0659bc34f68d715930af8d57530a7">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-2.1.2_912f61c151a01d2f207e0bd89be176c50356e48f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.2\e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33\greendao-api-3.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-api-3.2.2_d6937761e872ea9a5454e3cfef2297b1beab6c98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\11cf4900bffc437fd16f03619b0f4463e468aa7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be6aa4b849485deaeff0848f67c30bb127e3572">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_031eec98be68f871d4e06d69f5d1bccdec3fcbca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\2665be422ad2fef0367f9e6626000de2d5426c6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c45e0f1d2eb4a8ca988d755405882dafb1c8bf79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\0ef67c46bb5088f351f7c03eaf49b81a7df65406\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10ebda34a8c1c250c418547653cbf3fa7c99bc2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.2\f8c7ebdc29310be23d076e5512bafe6bad3ce2f0\greendao-3.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8c7ebdc29310be23d076e5512bafe6bad3ce2f0">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-3.2.2_5718ce3c6c929a3e917f79acad8d41add1927c91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\ddfc04c4af429293c660ef554c9097a3fbf2afcc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b0f8d2c1c57e6fb33953430f4b9d0d0d2b1c941\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="66b199a46f01c4470c13c70120e4312a4b84d368">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-3.1.0_ac3db959c03811fb1a7795c1b06ca4afc6b9c7bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Moments-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dece32686922fe8132cd1f7adc34893900939bd9">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-3.1.0_1fe0a55a05ccd1ea4892a7b4b1d01bb62b37609c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\bf843edd6fbbe5ee358581c5f6a316e9d71de937\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d81068eb8ae442c444fa4ae57389520c15543627\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\latte_annotations\build\libs\latte_annotations.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc7153cdfc37a1748fa44451b29f85fdc38f7ea">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\4\latte_annotations_9b9bb1e01c26e0ac3481d6be6a7409b57b6c565a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\latte_ui\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcec79d6ad7cc37d5c5200f80ebd06027eee8370">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_20aa16e0333818806c6b50b8cb54e8f5827957d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="66b199a46f01c4470c13c70120e4312a4b84d368">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-3.1.0_ac3db959c03811fb1a7795c1b06ca4afc6b9c7bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\latte_ec\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c6de2a9cea7d0cb48fe43bf2628851325407424">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_0f7a043bc0636aba08f05313edf0da6116210aac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\a8eb1d6e6fdb071a0c2ea505bef0340677c03bab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee55dc2775358c4e1b8392c9e6e972ac9d9318e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\latte_annotations\build\libs\latte_annotations.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc7153cdfc37a1748fa44451b29f85fdc38f7ea">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\latte_annotations_9b9bb1e01c26e0ac3481d6be6a7409b57b6c565a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\1e16ab8c84f5e3b0007a72bcd174a058e6721052\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46f2929f856df599da3497b694faaa9db0625a7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0\d88059003509074dd59fa226c822724bcf5ec0ca\disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-4.0.0_4af2c414b52f4b2e12bc3f0bd57011727a8934c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.3.0\1eaa5762cb25c31b1905e2bfdfef70a2e0495ea6\converter-scalars-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1eaa5762cb25c31b1905e2bfdfef70a2e0495ea6">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-scalars-2.3.0_7fe26ec79dfb973de8ad23ddf6af6df20b131cc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.tencent.mm.opensdk\wechat-sdk-android-with-mta\1.4.0\55f95375f268e0cd7ebe65f433969233990b12b7\wechat-sdk-android-with-mta-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="55f95375f268e0cd7ebe65f433969233990b12b7">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\wechat-sdk-android-with-mta-1.4.0_1b173ad5bbe5064b281081533a487292d3850701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0\f80192e6fd828d41c7da6f3552b0bef5d89cb26e\annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-4.0.0_014c0a89e1e44edbe5e33ce42298b5968ddf09c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\latte_ec\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a51285d7101f271cf01e65f358882d3ba363e8c">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\classes_0f7a043bc0636aba08f05313edf0da6116210aac.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="602b73e4869da7472ea53ad74cb9a265514aa8a4">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-3.1.0_126ff2357075b7268cde1513fcc00e45f8d2c2e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\4b2a5925e9cfb0d6dfae7863b32e3fb04a0f7553\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39526c3a3f6924ff11a94c3777d1e58ff197beb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-QQ-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="311a96b0128087bbb7c19b6165ef87a3980ccbf1">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-3.1.0_c0064eb0d99a571c67993e47b6b2297c57394f03.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3fb3435f069578f09b2bb22dd1aad305f55f74d0">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-3.1.0_d3adc2323228166e029a18a9c69813b5150ff5db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\4dec1508df06f8140e8e7d220301bf4d11179b09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6561f9da07cc54b9a6d15f01ea7ecb8f4fb2027\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="602b73e4869da7472ea53ad74cb9a265514aa8a4">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-3.1.0_126ff2357075b7268cde1513fcc00e45f8d2c2e8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\0dc18ab6a115a31284e4ae400d86a217891b28a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28016f4b691366a0a5f1c80be9753ddce3e59c31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\ff79c037283541aa5b75df95a3377c866207bf31\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f71558fd43c0f31c018bd01e950bd6e32aa67dff">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_271f942ff481d48c1965eef6db3aa376c70e5c25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\okhttp3-integration\4.0.0\19af431459f737f0da7e80ab5b2900e7e3ab7664\okhttp3-integration-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19af431459f737f0da7e80ab5b2900e7e3ab7664">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp3-integration-4.0.0_3d34bcb546e9a4930e35f2dd5f54b27f2adc15f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-QQ-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="311a96b0128087bbb7c19b6165ef87a3980ccbf1">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-3.1.0_c0064eb0d99a571c67993e47b6b2297c57394f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\1da064d22fcc103088a247c5849ee196b571c00e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e82aaf7a9133e5d3a251cff94581f6f9db80704b">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cfb94d427c69260a6e6bf63c67e91e138435bf22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\0c37f3281b024e293b31c17684baa7c8ef2897ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fd1c0cc344266f35fa23b6dc54034bd47bef568\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\github\LearnExample\app\libs\ShareSDK-Wechat-Moments-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dece32686922fe8132cd1f7adc34893900939bd9">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-3.1.0_1fe0a55a05ccd1ea4892a7b4b1d01bb62b37609c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\7b2e332c8e703913e86ee2bc85fdc01797c519a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22421a1925fc74854e7c517b00a79d697e3862c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0\47c487cc4e64e6ab127a517669ca9a7b49f8c61d\gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\gifdecoder-4.0.0_b4fb3ea8cc59adcf644eccd5d107df8619859bf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\LearnExample\latte_ui\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e1bca5f6746b2c52d6051a998ffb51f72d47548">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\pre-dexed\debug\classes_20aa16e0333818806c6b50b8cb54e8f5827957d6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_db35a9bb61db4f38360107a25bffda59cdc247a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\avd\.android\build-cache\533dafc892f0c6d0e2963bd727aa59e13b655627\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="178a142a25abea83b5bbb8c2660e6fb6c1ac7eb1">
+        <dex dex="H:\github\LearnExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c58889a4153125d6a661d64b85df98996fa05a47\classes.dex" />
     </item>
 
 </items>

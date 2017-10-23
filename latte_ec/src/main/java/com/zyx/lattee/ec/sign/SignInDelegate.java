@@ -11,6 +11,8 @@ import android.widget.Toast;
 import com.zyx.latte.delegates.LatteDelegate;
 import com.zyx.latte.net.RestClient;
 import com.zyx.latte.net.callback.ISuccess;
+import com.zyx.latte.wechat.LatteWeChat;
+import com.zyx.latte.wechat.callbacks.IWeChatSignInCallback;
 import com.zyx.lattee.ec.R;
 import com.zyx.lattee.ec.R2;
 
@@ -59,12 +61,17 @@ public class SignInDelegate extends LatteDelegate {
 
     @OnClick(R2.id.icon_sign_in_we_chat)
     void onClickWeChat(){
+        LatteWeChat.getInstance().onSignSuccess(new IWeChatSignInCallback() {
+            @Override
+            public void onSignInSuccess(String userInfo) {
 
+            }
+        }).signIn();
     }
 
     @OnClick(R2.id.tv_link_sign_up)
     void onClickLink(){
-        start(new SignUpDelegate());
+        getSupportDelegate().start(new SignUpDelegate());
     }
 
   private boolean checkForm(){

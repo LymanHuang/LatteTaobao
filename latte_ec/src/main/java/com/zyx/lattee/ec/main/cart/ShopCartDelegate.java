@@ -8,23 +8,23 @@ import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.ViewStubCompat;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
 import com.joanzapata.iconify.widget.IconTextView;
-import com.zyx.latte.delegates.LatteDelegate;
 import com.zyx.latte.delegates.bottom.BottomItemDelegate;
 import com.zyx.latte.net.RestClient;
 import com.zyx.latte.net.callback.ISuccess;
-import com.zyx.latte.ui.recycler.MultipleFields;
-import com.zyx.latte.ui.recycler.MultipleItemEmity;
+import com.zyx.latte_ui.recycler.MultipleItemEmity;
 import com.zyx.lattee.ec.R;
 import com.zyx.lattee.ec.R2;
+import com.zyx.lattee.ec.pay.FastPay;
+import com.zyx.lattee.ec.pay.IAlPayResultListener;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.WeakHashMap;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -33,11 +33,13 @@ import butterknife.OnClick;
  * Created by zyx on 2017/8/22.
  */
 
-public class ShopCartDelegate extends BottomItemDelegate implements ISuccess, ICartIemListener {
+public class ShopCartDelegate extends BottomItemDelegate implements ISuccess, ICartIemListener, IAlPayResultListener {
 
     private ShopCartAdapter mAdapter = null;
 
     private int mIconSelectedCount = 0;
+
+    private double mTotalPrice = 0.00;
 
 
     @BindView(R2.id.rv_shop_cart)
@@ -47,7 +49,7 @@ public class ShopCartDelegate extends BottomItemDelegate implements ISuccess, IC
     @BindView(R2.id.stub_no_item)
     ViewStubCompat mStubNoItem = null;
     @BindView(R2.id.tv_shop_cart_total_price)
-    AppCompatTextView mTotalPrice = null;
+    AppCompatTextView mTvTotalPrice = null;
 
     @OnClick(R2.id.icon_shop_cart_select_all)
     void onClickSelectAll(){
@@ -100,6 +102,40 @@ public class ShopCartDelegate extends BottomItemDelegate implements ISuccess, IC
         checkItemCount();
     }
 
+    @OnClick(R2.id.tv_shop_cart_pay)
+    void onClickPay(){
+//        FastPay.create(this).beginPayDialog();
+        createOrder();
+    }
+
+     //创建订单，注意，和支付是没有关系的
+    private void createOrder(){
+        final String orderUrl = "http://app.api.zanzuanshi.com/api/v1/peyment";
+        final WeakHashMap<String,Object> orderParams = new WeakHashMap<>();
+        orderParams.put("userId","");
+        orderParams.put("amount","0.01");
+        orderParams.put("comment","测试支付");
+        orderParams.put("type",1);
+        orderParams.put("ordertype",0);
+        orderParams.put("isanymous",true);
+        orderParams.put("followduser",0);
+        RestClient.builder()
+                .url(orderUrl)
+                .loader(getContext())
+                .params(orderParams)
+                .success(new ISuccess() {
+                    @Override
+                    public void onSuccess(String response) {
+                        final int orderId = JSON.parseObject(response).getInteger("result");
+                        FastPay.create(ShopCartDelegate.this)
+                                .setPayResultListener(ShopCartDelegate.this)
+                                .setOrderId(orderId)
+                                .beginPayDialog();
+                    }
+                })
+                .build()
+                .post();
+    }
     private void checkItemCount(){
         final int count = mAdapter.getItemCount();
         if (count == 0){
@@ -148,13 +184,39 @@ public class ShopCartDelegate extends BottomItemDelegate implements ISuccess, IC
         final LinearLayoutManager manager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(manager);
         mRecyclerView.setAdapter(mAdapter);
-
+        mTotalPrice = mAdapter.getTotalPrice();
+        mTvTotalPrice.setText(String.valueOf(mTotalPrice));
         checkItemCount();
     }
 
     @Override
     public void onItemClick(double itemTotalPrice) {
         final double price = mAdapter.getTotalPrice();
-        mTotalPrice.setText(String.valueOf(price));
+        mTvTotalPrice.setText(String.valueOf(price));
+    }
+
+    @Override
+    public void onPaySuccess() {
+
+    }
+
+    @Override
+    public void onPaying() {
+
+    }
+
+    @Override
+    public void onPayFail() {
+
+    }
+
+    @Override
+    public void onPayCancel() {
+
+    }
+
+    @Override
+    public void onPayConnectError() {
+
     }
 }

@@ -5,11 +5,11 @@ import android.webkit.CookieManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.zyx.latte.LatteLoader;
 import com.zyx.latte.app.ConfigKeys;
 import com.zyx.latte.app.Latte;
 import com.zyx.latte.delegates.IPageLoadListener;
 import com.zyx.latte.delegates.web.WebDelegate;
-import com.zyx.latte.ui.LatteLoader;
 import com.zyx.latte.util.storage.LattePreference;
 
 /**

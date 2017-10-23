@@ -6,16 +6,18 @@ import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import com.zyx.latte.delegates.LatteDelegate;
-import com.zyx.latte.ui.recycler.ItemType;
-import com.zyx.latte.ui.recycler.MultipleFields;
-import com.zyx.latte.ui.recycler.MultipleItemEmity;
-import com.zyx.latte.ui.recycler.MultipleRecyclerAdapter;
-import com.zyx.latte.ui.recycler.MultipleViewHolder;
+import com.zyx.latte_ui.recycler.ItemType;
+import com.zyx.latte_ui.recycler.MultipleFields;
+import com.zyx.latte_ui.recycler.MultipleItemEmity;
+import com.zyx.latte_ui.recycler.MultipleRecyclerAdapter;
+import com.zyx.latte_ui.recycler.MultipleViewHolder;
 import com.zyx.lattee.ec.R;
 import com.zyx.lattee.ec.main.sort.SortDelegate;
 import com.zyx.lattee.ec.main.sort.content.ContentDelegate;
 
 import java.util.List;
+
+import me.yokeyword.fragmentation.SupportHelper;
 
 /**
  * Created by zyx on 2017/8/15.
@@ -86,9 +88,9 @@ public class SortRecyclerAdapter extends MultipleRecyclerAdapter {
     }
 
     private void switchContent(ContentDelegate delegate){
-        final LatteDelegate contentDelegate = DELEGATE.findChildFragment(ContentDelegate.class);
+        final LatteDelegate contentDelegate = SupportHelper.findFragment(DELEGATE.getChildFragmentManager(),ContentDelegate.class);
         if (contentDelegate!=null){
-            contentDelegate.replaceFragment(delegate,false);
+            contentDelegate.getSupportDelegate().replaceFragment(delegate,false);
         }
     }
 }

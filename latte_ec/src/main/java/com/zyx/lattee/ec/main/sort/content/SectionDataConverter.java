@@ -3,8 +3,6 @@ package com.zyx.lattee.ec.main.sort.content;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.zyx.latte.ui.recycler.DataConverter;
-import com.zyx.latte.ui.recycler.MultipleItemEmity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,6 +2,8 @@ package com.zyx.latte.net.rx;
 
 import android.content.Context;
 
+import com.zyx.latte.LatteLoader;
+import com.zyx.latte.LoaderStyle;
 import com.zyx.latte.net.HttpMethod;
 import com.zyx.latte.net.RestClientBuilder;
 import com.zyx.latte.net.RestCreator;
@@ -12,8 +14,7 @@ import com.zyx.latte.net.callback.IRequest;
 import com.zyx.latte.net.callback.ISuccess;
 import com.zyx.latte.net.callback.RequestCallback;
 import com.zyx.latte.net.download.DownloadHandler;
-import com.zyx.latte.ui.LatteLoader;
-import com.zyx.latte.ui.LoaderStyle;
+
 
 import java.io.File;
 import java.util.Map;

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="StatusBarCompat-2.1.4">
+    <CLASSES>
+      <root url="jar://D:/android/avd/.android/build-cache/1da064d22fcc103088a247c5849ee196b571c00e/output/jars/classes.jar!/" />
+      <root url="file://D:/android/avd/.android/build-cache/1da064d22fcc103088a247c5849ee196b571c00e/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

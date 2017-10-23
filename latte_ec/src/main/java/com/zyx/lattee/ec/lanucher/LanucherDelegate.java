@@ -9,14 +9,16 @@ import android.view.View;
 import com.zyx.latte.app.AccountManager;
 import com.zyx.latte.app.IUserChecker;
 import com.zyx.latte.delegates.LatteDelegate;
-import com.zyx.latte.ui.launcher.ILauncherListener;
-import com.zyx.latte.ui.launcher.OnLauncherFinishTag;
-import com.zyx.latte.ui.launcher.ScrollLauncherTag;
+
 import com.zyx.latte.util.storage.LattePreference;
 import com.zyx.latte.util.timer.BaseTimerTask;
 import com.zyx.latte.util.timer.ITimerListener;
+import com.zyx.latte_ui.launcher.ILauncherListener;
+import com.zyx.latte_ui.launcher.OnLauncherFinishTag;
+import com.zyx.latte_ui.launcher.ScrollLauncherTag;
 import com.zyx.lattee.ec.R;
 import com.zyx.lattee.ec.R2;
+
 
 import java.text.MessageFormat;
 import java.util.Timer;
@@ -72,7 +74,7 @@ public class LanucherDelegate extends LatteDelegate implements ITimerListener {
     //判断是否显示滑动启动页
     private void checkIsShowScroll() {
         if (!LattePreference.getAppFlag(ScrollLauncherTag.HAS_FIRST_LAUNCHER_APP.name())) {
-            start(new LauncherScrollDelegate(), SINGLETASK);
+            getSupportDelegate().start(new LauncherScrollDelegate(), SINGLETASK);
         } else {
             //检查用户是否登录了app
             AccountManager.checkAccount(new IUserChecker() {

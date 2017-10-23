@@ -14,10 +14,11 @@ import com.joanzapata.iconify.widget.IconTextView;
 import com.zyx.latte.app.Latte;
 import com.zyx.latte.net.RestClient;
 import com.zyx.latte.net.callback.ISuccess;
-import com.zyx.latte.ui.recycler.MultipleFields;
-import com.zyx.latte.ui.recycler.MultipleItemEmity;
-import com.zyx.latte.ui.recycler.MultipleRecyclerAdapter;
-import com.zyx.latte.ui.recycler.MultipleViewHolder;
+
+import com.zyx.latte_ui.recycler.MultipleFields;
+import com.zyx.latte_ui.recycler.MultipleItemEmity;
+import com.zyx.latte_ui.recycler.MultipleRecyclerAdapter;
+import com.zyx.latte_ui.recycler.MultipleViewHolder;
 import com.zyx.lattee.ec.R;
 
 import java.util.LinkedHashMap;
@@ -47,6 +48,8 @@ public class ShopCartAdapter extends MultipleRecyclerAdapter {
             final double total = price*count;
             mTotalPrice = mTotalPrice + total;
         }
+
+        //待解决第一次计算失败的bug
         //添加购物车item布局
         addItemType(ShopCartItemType.SHOP_CART_ITEM, R.layout.item_shop_cart);
     }

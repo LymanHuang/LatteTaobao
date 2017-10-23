@@ -1,7 +1,9 @@
 package com.zyx.latte.net.callback;
 
-import com.zyx.latte.ui.LatteLoader;
-import com.zyx.latte.ui.LoaderStyle;
+
+
+import com.zyx.latte.LatteLoader;
+import com.zyx.latte.LoaderStyle;
 
 import retrofit2.Call;
 import retrofit2.Callback;

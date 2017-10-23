@@ -2,13 +2,13 @@ package com.zyx.latte.net.rx;
 
 import android.content.Context;
 
+import com.zyx.latte.LoaderStyle;
 import com.zyx.latte.net.RestClient;
 import com.zyx.latte.net.RestCreator;
 import com.zyx.latte.net.callback.IError;
 import com.zyx.latte.net.callback.IFailure;
 import com.zyx.latte.net.callback.IRequest;
 import com.zyx.latte.net.callback.ISuccess;
-import com.zyx.latte.ui.LoaderStyle;
 
 import java.io.File;
 import java.util.Map;

@@ -12,5 +12,8 @@ public enum ConfigKeys {
     HANDLER,
     JAVASCRIPT_INTERFACE,
     INTERCEPTOR,
-    WEB_HOST
+    WEB_HOST,
+    WE_CHAT_APP_ID,
+    WE_CHAT_APP_SECRET,
+    ACTIVITY
 }

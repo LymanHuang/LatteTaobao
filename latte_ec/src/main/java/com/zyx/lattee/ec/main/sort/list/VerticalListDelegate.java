@@ -9,7 +9,7 @@ import android.view.View;
 import com.zyx.latte.delegates.LatteDelegate;
 import com.zyx.latte.net.RestClient;
 import com.zyx.latte.net.callback.ISuccess;
-import com.zyx.latte.ui.recycler.MultipleItemEmity;
+import com.zyx.latte_ui.recycler.MultipleItemEmity;
 import com.zyx.lattee.ec.R;
 import com.zyx.lattee.ec.R2;
 import com.zyx.lattee.ec.main.sort.SortDelegate;

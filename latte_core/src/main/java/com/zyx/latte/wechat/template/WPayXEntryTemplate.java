@@ -1,15 +1,35 @@
 package com.zyx.latte.wechat.template;
 
+import android.widget.Toast;
+
 import com.zyx.latte.activies.ProxyActivity;
 import com.zyx.latte.delegates.LatteDelegate;
+import com.zyx.latte.wechat.BaseWXPayEntryAcitvity;
 
 /**
  * Created by zyx on 2017/8/18.
  */
 
-public class WPayXEntryTemplate extends ProxyActivity {
+public class WPayXEntryTemplate extends BaseWXPayEntryAcitvity {
+
     @Override
-    public LatteDelegate setRootDelegate() {
-        return null;
+    protected void onPaySuccess() {
+        Toast.makeText(this,"支付成功",Toast.LENGTH_SHORT).show();
+        finish();
+        overridePendingTransition(0,0);
+    }
+
+    @Override
+    protected void onPayFail() {
+        Toast.makeText(this,"支付失败",Toast.LENGTH_SHORT).show();
+        finish();
+        overridePendingTransition(0,0);
+    }
+
+    @Override
+    protected void onPayCancel() {
+        Toast.makeText(this,"支付取消",Toast.LENGTH_SHORT).show();
+        finish();
+        overridePendingTransition(0,0);
     }
 }

@@ -10,11 +10,11 @@ import com.bigkoo.convenientbanner.listener.OnItemClickListener;
 import com.zyx.latte.app.AccountManager;
 import com.zyx.latte.app.IUserChecker;
 import com.zyx.latte.delegates.LatteDelegate;
-import com.zyx.latte.ui.launcher.ILauncherListener;
-import com.zyx.latte.ui.launcher.LauncherHolderCreator;
-import com.zyx.latte.ui.launcher.OnLauncherFinishTag;
-import com.zyx.latte.ui.launcher.ScrollLauncherTag;
 import com.zyx.latte.util.storage.LattePreference;
+import com.zyx.latte_ui.launcher.ILauncherListener;
+import com.zyx.latte_ui.launcher.LauncherHolderCreator;
+import com.zyx.latte_ui.launcher.OnLauncherFinishTag;
+import com.zyx.latte_ui.launcher.ScrollLauncherTag;
 import com.zyx.lattee.ec.R;
 
 import java.util.ArrayList;

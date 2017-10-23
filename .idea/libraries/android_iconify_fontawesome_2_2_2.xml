@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-iconify-fontawesome-2.2.2">
+    <CLASSES>
+      <root url="jar://D:/android/avd/.android/build-cache/2e9ef8f27c4d9f0d66153eec3d89678d4d168993/output/jars/classes.jar!/" />
+      <root url="file://D:/android/avd/.android/build-cache/2e9ef8f27c4d9f0d66153eec3d89678d4d168993/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.iconify/android-iconify-fontawesome/2.2.2/a227b2763bb9b8341f2cdc4fd9dc429801ed0b64/android-iconify-fontawesome-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

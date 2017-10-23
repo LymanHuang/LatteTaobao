@@ -49,22 +49,22 @@ public class ContentDelegate extends LatteDelegate {
         return R.layout.delegate_list_content;
     }
 
-    private void initData(){
-        RestClient.builder()
-                .url("http://www.youec.cc/apptest/sort_content_list.php?contentId="+mContentId)
-                .success(new ISuccess() {
-                    @Override
-                    public void onSuccess(String response) {
-                        mData = new SectionDataConverter().convert(response);
-                        final SectionAdapter sectionAdapter = new SectionAdapter(R.layout.item_section_content,
-                                R.layout.item_section_header,
-                                mData);
-                        mRecyclerView.setAdapter(sectionAdapter);
-                    }
-                })
-                .build()
-                .get();
-    }
+        private void initData(){
+            RestClient.builder()
+                        .url("http://www.youec.cc/apptest/sort_content_list.php?contentId="+mContentId)
+                    .success(new ISuccess() {
+                        @Override
+                        public void onSuccess(String response) {
+                            mData = new SectionDataConverter().convert(response);
+                            final SectionAdapter sectionAdapter = new SectionAdapter(R.layout.item_section_content,
+                                    R.layout.item_section_header,
+                                    mData);
+                            mRecyclerView.setAdapter(sectionAdapter);
+                        }
+                    })
+                    .build()
+                    .get();
+        }
     @Override
     public void onBindView(@Nullable Bundle savedInstanceState, View rootView) {
         final StaggeredGridLayoutManager manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);

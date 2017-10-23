@@ -43,7 +43,7 @@ public class SectionAdapter extends BaseSectionQuickAdapter<SectionBean,BaseView
         Glide.with(mContext)
                 .load(thumb)
                 .apply(OPTIONS)
-                .into(goodsImageView);;
+                .into(goodsImageView);
 
     }
 }

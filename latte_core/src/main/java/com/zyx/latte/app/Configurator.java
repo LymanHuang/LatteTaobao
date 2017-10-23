@@ -1,8 +1,11 @@
 package com.zyx.latte.app;
 
+import android.app.Activity;
+import android.app.Application;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 
+import com.blankj.utilcode.util.Utils;
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
 import com.zyx.latte.delegates.web.event.Event;
@@ -43,6 +46,7 @@ public class  Configurator {
     public final void configure(){
         initIcons();
         LATTE_CONFIGS.put(ConfigKeys.CONFIG_READY,true);
+        Utils.init((Application) Latte.getApplicationContext());
     }
 
     public final Configurator withApiHost(String host){
@@ -78,6 +82,20 @@ public class  Configurator {
         return this;
     }
 
+    public final Configurator withWeChatAppId(String appId){
+        LATTE_CONFIGS.put(ConfigKeys.WE_CHAT_APP_ID,appId);
+        return this;
+    }
+
+    public final Configurator withWeChatAppSecret(String appSecret){
+        LATTE_CONFIGS.put(ConfigKeys.WE_CHAT_APP_SECRET,appSecret);
+        return this;
+    }
+
+    public final Configurator withActivity(Activity activity){
+        LATTE_CONFIGS.put(ConfigKeys.ACTIVITY,activity);
+        return this;
+    }
     public final Configurator withInterceptors(ArrayList<Interceptor> interceptors){
         INTERCEPTORS.addAll(interceptors);
         LATTE_CONFIGS.put(ConfigKeys.INTERCEPTOR,INTERCEPTORS);

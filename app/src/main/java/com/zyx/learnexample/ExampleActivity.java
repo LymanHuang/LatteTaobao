@@ -10,9 +10,10 @@ import android.widget.Toast;
 
 import com.wang.avi.AVLoadingIndicatorView;
 import com.zyx.latte.activies.ProxyActivity;
+import com.zyx.latte.app.Latte;
 import com.zyx.latte.delegates.LatteDelegate;
-import com.zyx.latte.ui.launcher.ILauncherListener;
-import com.zyx.latte.ui.launcher.OnLauncherFinishTag;
+import com.zyx.latte_ui.launcher.ILauncherListener;
+import com.zyx.latte_ui.launcher.OnLauncherFinishTag;
 import com.zyx.lattee.ec.lanucher.LanucherDelegate;
 import com.zyx.lattee.ec.lanucher.LauncherScrollDelegate;
 import com.zyx.lattee.ec.main.EcBottomDelegate;
@@ -21,12 +22,13 @@ import com.zyx.lattee.ec.sign.ISignListener;
 import com.zyx.lattee.ec.sign.SignInDelegate;
 import com.zyx.lattee.ec.sign.SignUpDelegate;
 
-import me.yokeyword.fragmentation.SupportActivity;
+import me.yokeyword.fragmentation.*;
+import me.yokeyword.fragmentation.BuildConfig;
 import qiu.niorgai.StatusBarCompat;
 
 public class ExampleActivity extends ProxyActivity  implements
         ISignListener ,
-        ILauncherListener{
+        ILauncherListener {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,8 +37,8 @@ public class ExampleActivity extends ProxyActivity  implements
         if (actionBar != null) {
             actionBar.hide();
         }
+        Latte.getConfiguratior().withActivity(this);
         StatusBarCompat.translucentStatusBar(this,true);
-
     }
 
     @Override
@@ -59,10 +61,11 @@ public class ExampleActivity extends ProxyActivity  implements
         switch (tag){
             case SIGNED:
                 Toast.makeText(this, "启动结束,用户登录了", Toast.LENGTH_SHORT).show();
+                getSupportDelegate().startWithPop(new EcBottomDelegate());
                 break;
             case NOT_SIGNED:
                 Toast.makeText(this, "启动结束,用户没登录", Toast.LENGTH_SHORT).show();
-                startWithPop(new SignInDelegate());
+                getSupportDelegate().startWithPop(new SignInDelegate());
                 break;
             default:
                 break;
